@@ -4,7 +4,8 @@ import time
 import re
 
 SERVER_IP = "54.37.225.65"      # ← change to your server IP
-SERVER_PORT = 7017           # ← change to your server port
+SERVER_PORT = 2017           # ← change to your server port
+
 DELAY = 0.5                  # delay between messages (seconds)
 
 HEX_PATTERN = re.compile(r":([0-9A-Fa-f]+)$")
